@@ -1,0 +1,27 @@
+.title{
+  font-family: "Tangerine", cursive;
+  font-size: 80px;
+}
+
+.todo-list-form input[type=text]:focus:not([readonly]){ 
+  border-bottom: 1px solid #1b5e20;
+  box-shadow: 0 1px 0 0 #1b5e20;
+}
+
+.todo-form input[type=text]{
+  margin-bottom: 0px;
+}
+
+.todo-form input[type=text]:focus:not([readonly]){
+  border-bottom: 1px solid #76ff03;
+  box-shadow: 0 1px 0 0 #76ff03;
+}
+
+.collection .collection-item {
+  padding: 10px 0px 10px 10px;
+}
+
+.checked{
+	text-decoration: line-through;
+	opacity: .50;
+}
